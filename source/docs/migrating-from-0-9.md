@@ -166,7 +166,7 @@ vs.
 ```js
 var encoder = new parser.Encoder();
 encoder.encode(packet, function(encodings) {
-  for (var i = 0; i &lt; encodings.length; i++) {
+  for (var i = 0; i < encodings.length; i++) {
     console.log(encodings[i]); // encoded parts of the packet
   }
 });
